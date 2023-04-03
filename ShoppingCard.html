@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="cart-container">
+		<h2>Shopping Cart</h2>
+		<div class="cart-items">
+			<!-- This is where the items will be displayed -->
+		</div>
+		<div class="cart-total">
+			
+			<div>
+				<span>Total Price: </span>
+				<span id="total-price">$0.00</span>
+			  </div>
+
+		</div>
+
+		<button class="btn-clear-cart">Clear Cart</button>
+	</div>
+
+	<div class="product-container">
+		<h2>Products</h2>
+		<div class="product-items">
+			<!-- This is where the products will be displayed -->
+			<div class="product-item">
+				<img src="product-1.avif">
+				<h3>Product 1</h3>
+				<span class="price-item">$10.00</span>
+				<div class="cart-item">
+					
+					<button class="minus-btn">-</button>
+					<input type="text" value="1" class="quantity">
+					<button class="plus-btn">+</button>
+					<br>
+					<label>Total:  <span class="price">$10.00</span> </label>
+					<br>
+					<button class="delete-btn">X</button>
+					
+				</div>
+				</br>
+				<button id="heart-button-item1"><i class="fa fa-heart"></i></button>
+				</br>
+			</div>
+			<div class="product-item">
+				<img src="product-2.jpg">
+				<h3>Product 2</h3>
+				<span class="price-item">$20.00</span>
+				<div class="cart-item">
+					
+					<button class="minus-btn">-</button>
+					<input type="text" value="1" class="quantity">
+					<button class="plus-btn">+</button>
+					<br>
+					<label>Total:  <span class="price">$20.00</span> </label>
+					<br>
+					<button class="delete-btn">X</button>
+					
+				</div>
+				</br>
+				<button id="heart-button-item2"><i class="fa fa-heart"></i></button>
+				</br>
+			</div>
+			<div class="product-item">
+				<img src="product-3.png">
+				<h3>Product 3</h3>
+				<span class="price-item">$30.00</span>
+				<div class="cart-item">
+					
+					<button class="minus-btn">-</button>
+					<input type="text" value="1" class="quantity">
+					<button class="plus-btn">+</button>
+					<br>
+					<label>Total:  <span class="price">$30.00</span> </label>
+					<br>
+					<button class="delete-btn">X</button>
+					
+				</div>
+				</br>
+				<button id="heart-button-item3"><i class="fa fa-heart"></i></button>
+				</br>
+			</div>
+		</div>
+	</div>
+	<h1>Shopping Cart</h1>
+	<script src="script.js"></script>
+</body>
+</html>
